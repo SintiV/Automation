@@ -22,52 +22,43 @@ public class MegamenuCategories extends PageObjectModel {
     @FindBy(xpath = "(//a[contains(@href,'/c/new-arrivals')])[3]")
     public WebElement categoryNew;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/lunar-new-year')])[4]")
-    public WebElement categoryNew_LunarNY;
+    @FindBy(xpath = "(//a[contains(@href,'/c/the-bunny')])[5]")
+    public WebElement categoryNew_Bunny;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/pleasures')])[3]")
-    public WebElement categoryNew_Pleasures;
+    @FindBy(xpath = "(//a[contains(@href,'/c/lightweight-down-jackets')])[3]")
+    public WebElement categoryNew_AirDown;
 
     @FindBy(xpath = "(//a[contains(@href,'/c/new-arrivals')])[5]")
-    public WebElement categoryNew_NewArrivals;
+    public WebElement categoryNew_SpringNewArrivals;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/women')])[35]")
-    public WebElement categoryWomenENG; //ENG locales
+    @FindBy(xpath = "(//a[contains(@href,'/c/women')])[37]")
+    public WebElement categoryWomen;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/women')])[36]")
-    public WebElement categoryWomenNonENG; //FR, DE locales
-
-    @FindBy(xpath = "(//a[contains(@href,'/c/women/new-arrivals')])[3]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/women/new-arrivals')])[4]")
     public WebElement categoryWomen_NewArrivals;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/women/sale')])[3]")
-    public WebElement categoryWomen_NewArrivals_Sale;
-
-    @FindBy(xpath = "(//a[contains(@href,'/c/women/icons/cloud')])[3]")
-    public WebElement categoryWomen_NewArrivals_Cloud;
-
-    @FindBy(xpath = "(//a[contains(@href,'herpa')])[5]")
-    public WebElement categoryWomen_NewArrivals_SherpaAndFleece;
-
-    @FindBy(xpath = "(//a[contains(@href,'/c/women/collections/lightweights')])[2]")
-    public WebElement categoryWomen_NewArrivals_LightweightDown;
+    @FindBy(xpath = "(//a[contains(@href,'/c/women/outerwear/lightweights-down-jacket')])[3]")
+    public WebElement categoryWomen_NewArrivals_LightweightDownJackets;
 
     @FindBy(xpath = "(//a[contains(@href,'/c/women/collections/the-bunny')])[3]")
     public WebElement categoryWomen_NewArrivals_Bunny;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/women/outerwear/puffer-collection')])[3]")
-    public WebElement categoryWomen_NewArrivals_Puffers;
+    @FindBy(xpath = "(//a[contains(@href,'/c/women/outerwear/rain-jackets')])[3]")
+    public WebElement categoryWomen_NewArrivals_RainJackets;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/women/new-arrivals')])[4]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/women/outerwear/quilt-jackets')])[3]")
+    public WebElement categoryWomen_NewArrivals_QuiltedJackets;
+
+    @FindBy(xpath = "(//a[contains(@href,'/c/women/new-arrivals/new-spring-arrivals')])[4]")
     public WebElement categoryWomen_NewArrivals_ShopAll;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/women/icons')])[10]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/women/icons')])[8]")
     public WebElement categoryWomen_Icons;
 
     @FindBy(xpath = "(//a[contains(@href,'/c/women/icons/originals')])[2]")
     public WebElement categoryWomen_Icons_Originals;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/women/icons/cloud')])[4]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/women/icons/cloud')])[2]")
     public WebElement categoryWomen_Icons_Cloud;
 
     @FindBy(xpath = "(//a[contains(@href,'/c/women/icons/gold-series')])[2]")
@@ -76,205 +67,193 @@ public class MegamenuCategories extends PageObjectModel {
     @FindBy(xpath = "(//a[contains(@href,'/c/women/icons/onyx-series')])[2]")
     public WebElement categoryWomen_Icons_OnyxSeries;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/women/icons')])[15]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/women/icons')])[13]")
     public WebElement categoryWomen_Icons_ShopAll;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/women/outerwear')])[11]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/women/outerwear')])[23]")
     public WebElement categoryWomen_Outerwear;
+
+    @FindBy(xpath = "(//a[contains(@href,'/c/women/outerwear/lightweights')])[6]")
+    public WebElement categoryWomen_Outerwear_LightweightJackets;
+
+    @FindBy(xpath = "(//a[contains(@href,'/c/women/outerwear/quilt-jackets')])[4]")
+    public WebElement categoryWomen_Outerwear_QuiltedJackets;
+
+    @FindBy(xpath = "(//a[contains(@href,'/c/women/outerwear/vests')])[3]")
+    public WebElement categoryWomen_Outerwear_Vests;
 
     @FindBy(xpath = "(//a[contains(@href,'/c/women/collections/the-bunny')])[4]")
     public WebElement categoryWomen_Outerwear_Bunny;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/women/outerwear/lightweights')])[2]")
-    public WebElement categoryWomen_Outerwear_LightweightJackets;
+    @FindBy(xpath = "(//a[contains(@href,'/c/women/outerwear/rain-jackets')])[4]")
+    public WebElement categoryWomen_Outerwear_RainJackets;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/women/outerwear/coats-jackets')])[2]")
-    public WebElement categoryWomen_Outerwear_CoatsAndJackets;
-
-    @FindBy(xpath = "(//a[contains(@href,'/c/women/outerwear/puffer-collection')])[4]")
-    public WebElement categoryWomen_Outerwear_Puffers;
-
-    @FindBy(xpath = "(//a[contains(@href,'/c/women/outerwear/bomber-jackets')])[2]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/women/outerwear/bomber-jackets')])[3]")
     public WebElement categoryWomen_Outerwear_BomberJackets;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/women/outerwear/parkas')])[2]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/women/outerwear/lightweights-down-jackets')])[4]")
+    public WebElement categoryWomen_Outerwear_LightweightDownJackets;
+
+    @FindBy(xpath = "(//a[contains(@href,'/c/women/outerwear/parkas')])[3]")
     public WebElement categoryWomen_Outerwear_Parkas;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/women/outerwear/vests')])[2]")
-    public WebElement categoryWomen_Outerwear_Vests;
+    @FindBy(xpath = "(//a[contains(@href,'/c/women/outerwear/coats-jackets')])[3]")
+    public WebElement categoryWomen_Outerwear_CoatsAndJackets;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/women/outerwear')])[18]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/women/outerwear')])[32]")
     public WebElement categoryWomen_Outerwear_ShopAll;
 
     @FindBy(xpath = "(//a[contains(@href,'/c/women/clothing')])[8]")
     public WebElement categoryWomen_Clothing;
 
-    @FindBy(xpath = "(//a[contains(@href,'herpa')])[6]")
-    public WebElement categoryWomen_Clothing_SherpaAndFleece;
-
     @FindBy(xpath = "(//a[contains(@href,'/c/women/clothing/sweatshirts-and-hoodies')])[2]")
     public WebElement categoryWomen_Clothing_SweatshirtsAndHoodies;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/women/clothing/trousers-and-shorts')])[2]")
+    @FindBy(xpath = "(//a[contains(@href,'herpa')])[5]")
+    public WebElement categoryWomen_Clothing_SherpaAndFleece;
+
+    @FindBy(xpath = "(//a[contains(@href,'/c/women/clothing/polos-and-tees')])[2]")
+    public WebElement categoryWomen_Clothing_PolosAndTees;
+
+    @FindBy(xpath = "(//a[contains(@href,'/c/women/clothing/pants-and-shorts')])[2]")
     public WebElement categoryWomen_Clothing_PantsAndShorts;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/women/clothing')])[12]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/women/clothing')])[13]")
     public WebElement categoryWomen_Clothing_ShopAll;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/accessories')])[14]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/accessories')])[16]")
     public WebElement categoryWomen_Accessories;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/accessories/hats-and-caps')])[3]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/accessories/hats-and-caps')])[4]")
     public WebElement categoryWomen_Accessories_BeaniesAndHats;
 
     @FindBy(xpath = "(//a[contains(@href,'/c/accessories/beanies-and-scarves')])[3]")
     public WebElement categoryWomen_Accessories_WinterAccessories;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/pooch-knuckles')])[3]")
-    public WebElement categoryWomen_Accessories_Pet;
+    @FindBy(xpath = "(//a[contains(@href,'/c/accessories/bags-belts')])[3]")
+    public WebElement categoryWomen_Accessories_BagsBeltsAndAccessories;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/accessories/spring-accessories')])[3]")
-    public WebElement categoryWomen_Accessories_SocksBeltsAndBags;
-
-    @FindBy(xpath = "(//a[contains(@href,'/c/accessories')])[18]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/accessories')])[20]")
     public WebElement categoryWomen_Accessories_ShopAll;
 
     @FindBy(xpath = "(//a[contains(@href,'/c/men')])[36]")
-    public WebElement categoryMenENG; //ENG locales
-
-    @FindBy(xpath = "(//a[contains(@href,'/c/men')])[37]")
-    public WebElement categoryMenNonENG; //FR, DE locales
+    public WebElement categoryMen;
 
     @FindBy(xpath = "(//a[contains(@href,'/c/men/new-arrivals')])[3]")
     public WebElement categoryMen_NewArrivals;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/sale')])[3]")
-    public WebElement categoryMen_NewArrivals_Sale;
-
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/icons/cloud')])[3]")
-    public WebElement categoryMen_NewArrivals_Cloud;
-
-    @FindBy(xpath = "(//a[contains(@href,'herpa')])[7]")
-    public WebElement categoryMen_NewArrivals_SherpaAndFleece;
-
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/collections/lightweights')])[2]")
-    public WebElement categoryMen_NewArrivals_LightweightDown;
+    @FindBy(xpath = "(//a[contains(@href,'/c/men/outerwear/lightweights-down-jacket')])[3]")
+    public WebElement categoryMen_NewArrivals_LightweightDownJackets;
 
     @FindBy(xpath = "(//a[contains(@href,'/c/men/collections/the-bunny')])[3]")
     public WebElement categoryMen_NewArrivals_Bunny;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/outerwear/puffer-collection')])[3]")
-    public WebElement categoryMen_NewArrivals_Puffers;
+    @FindBy(xpath = "(//a[contains(@href,'/c/men/outerwear/rain-jackets')])[3]")
+    public WebElement categoryMen_NewArrivals_RainJackets;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/new-arrivals')])[4]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/men/outerwear/quilt-jackets')])[3]")
+    public WebElement categoryMen_NewArrivals_QuiltedJackets;
+
+    @FindBy(xpath = "(//a[contains(@href,'/c/men/new-arrivals/new-spring-arrivals')])[4]")
     public WebElement categoryMen_NewArrivals_ShopAll;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/icons')])[10]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/men/icons')])[8]")
     public WebElement categoryMen_Icons;
 
     @FindBy(xpath = "(//a[contains(@href,'/c/men/icons/originals')])[2]")
     public WebElement categoryMen_Icons_Originals;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/icons/cloud')])[4]")
-    public WebElement categoryMen_Icons_Cloud;
-
     @FindBy(xpath = "(//a[contains(@href,'/c/men/icons/gold-series')])[2]")
     public WebElement categoryMen_Icons_GoldSeries;
+
+    @FindBy(xpath = "(//a[contains(@href,'/c/men/icons/cloud')])[2]")
+    public WebElement categoryMen_Icons_Cloud;
 
     @FindBy(xpath = "(//a[contains(@href,'/c/men/icons/onyx-series')])[2]")
     public WebElement categoryMen_Icons_OnyxSeries;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/icons')])[15]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/men/icons')])[13]")
     public WebElement categoryMen_Icons_ShopAll;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/outerwear')])[11]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/men/outerwear')])[23]")
     public WebElement categoryMen_Outerwear;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/collections/the-bunny')])[4]")
-    public WebElement categoryMen_Outerwear_Bunny;
-
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/outerwear/lightweights')])[2]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/men/outerwear/lightweights')])[6]")
     public WebElement categoryMen_Outerwear_LightweightJackets;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/outerwear/coats-jackets')])[2]")
-    public WebElement categoryMen_Outerwear_CoatsAndJackets;
+    @FindBy(xpath = "(//a[contains(@href,'/c/men/outerwear/quilt-jackets')])[4]")
+    public WebElement categoryMen_Outerwear_QuiltedJackets;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/outerwear/puffer-collection')])[4]")
-    public WebElement categoryMen_Outerwear_Puffers;
-
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/outerwear/bomber-jackets')])[2]")
-    public WebElement categoryMen_Outerwear_BomberJackets;
-
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/outerwear/parkas')])[2]")
-    public WebElement categoryMen_Outerwear_Parkas;
-
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/outerwear/vests')])[2]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/men/outerwear/vests')])[3]")
     public WebElement categoryMen_Outerwear_Vests;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/outerwear')])[18]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/men/collections/the-bunny')])[2]")
+    public WebElement categoryMen_Outerwear_Bunny;
+
+    @FindBy(xpath = "(//a[contains(@href,'/c/men/outerwear/rain-jackets')])[4]")
+    public WebElement categoryMen_Outerwear_RainJackets;
+
+    @FindBy(xpath = "(//a[contains(@href,'/c/men/outerwear/bomber-jackets')])[3]")
+    public WebElement categoryMen_Outerwear_BomberJackets;
+
+    @FindBy(xpath = "(//a[contains(@href,'/c/men/outerwear/lightweights-down-jackets')])[4]")
+    public WebElement categoryMen_Outerwear_LightweightDownJackets;
+
+    @FindBy(xpath = "(//a[contains(@href,'/c/men/outerwear/parkas')])[3]")
+    public WebElement categoryMen_Outerwear_Parkas;
+
+    @FindBy(xpath = "(//a[contains(@href,'/c/men/outerwear/coats-jackets')])[3]")
+    public WebElement categoryMen_Outerwear_CoatsAndJackets;
+
+    @FindBy(xpath = "(//a[contains(@href,'/c/men/outerwear')])[32]")
     public WebElement categoryMen_Outerwear_ShopAll;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/clothing')])[9]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/men/clothing')])[8]")
     public WebElement categoryMen_Clothing;
 
-    @FindBy(xpath = "(//a[contains(@href,'herpa')])[8]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/men/clothing/sweatshirts-and-hoodies')])[2]")
+    public WebElement categoryMen_Clothing_SweatshirtsAndHoodies;
+
+    @FindBy(xpath = "(//a[contains(@href,'herpa')])[6]")
     public WebElement categoryMen_Clothing_SherpaAndFleece;
 
     @FindBy(xpath = "(//a[contains(@href,'/c/men/clothing/tees')])[2]")
     public WebElement categoryMen_Clothing_PolosAndTees;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/clothing/sweatshirts-and-hoodies')])[2]")
-    public WebElement categoryMen_Clothing_SweatshirtsAndHoodies;
-
     @FindBy(xpath = "(//a[contains(@href,'/c/men/clothing/trousers-and-shorts')])[2]")
     public WebElement categoryMen_Clothing_PantsAndShorts;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/clothing/unisex-essentials')])[2]")
-    public WebElement categoryMen_Clothing_UnisexClothing;
+//    @FindBy(xpath = "(//a[contains(@href,'/c/men/clothing/unisex-essentials')])[2]")
+//    public WebElement categoryMen_Clothing_UnisexClothing;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/clothing')])[14]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/men/clothing')])[13]")
     public WebElement categoryMen_Clothing_ShopAll;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/accessories')])[19]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/accessories')])[21]")
     public WebElement categoryMen_Accessories;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/accessories/hats-and-caps')])[4]")
-    public WebElement categoryMen_Accessories_BeaniesAndHats;
+    @FindBy(xpath = "(//a[contains(@href,'/c/accessories/hats-and-caps')])[5]")
+    public WebElement categoryMen_Accessories_HatsAndCaps;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/accessories/beanies-and-scarves')])[4]")
-    public WebElement categoryMen_Accessories_WinterAccessories;
+    @FindBy(xpath = "(//a[contains(@href,'/c/accessories/spring-accessories')])[3]")
+    public WebElement categoryMen_Accessories_SpringAccessories;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/pooch-knuckles')])[4]")
-    public WebElement categoryMen_Accessories_Pet;
+    @FindBy(xpath = "(//a[contains(@href,'/c/accessories/bags-belts')])[4]")
+    public WebElement categoryMen_Accessories_BagsBeltsAndAccessories;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/accessories/spring-accessories')])[4]")
-    public WebElement categoryMen_Accessories_SocksBeltsAndBags;
-
-    @FindBy(xpath = "(//a[contains(@href,'/c/accessories')])[23]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/accessories')])[25]")
     public WebElement categoryMen_Accessories_ShopAll;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/kids')])[14]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/kids')])[12]")
     public WebElement categoryKids;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/kids/new-arrivals')])[3]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/kids/new-arrivals')])[4]")
     public WebElement categoryKids_NewArrivals;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/kids/sale')])[3]")
-    public WebElement categoryKids_NewArrivals_Sale;
+    @FindBy(xpath = "(//a[contains(@href,'/c/kids/new-arrivals/new-spring-arrivals')])[2]")
+    public WebElement categoryKids_NewArrivals_NewSpringArrivals;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/kids/icons/originals')])[2]")
-    public WebElement categoryKids_NewArrivals_Originals;
-
-    @FindBy(xpath = "(//a[contains(@href,'/c/kids/icons/gold')])[2]")
-    public WebElement categoryKids_NewArrivals_Gold;
-
-    @FindBy(xpath = "(//a[contains(@href,'/c/kids/collections/lightweights')])[2]")
-    public WebElement categoryKids_NewArrivals_Lightweights;
-
-    @FindBy(xpath = "(//a[contains(@href,'/c/kids/clothing-and-accessories')])[4]")
-    public WebElement categoryKids_NewArrivals_ClothingAndAccessories;
-
-    @FindBy(xpath = "(//a[contains(@href,'/c/kids/new-arrivals')])[4]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/kids/new-arrivals')])[6]")
     public WebElement categoryKids_NewArrivals_ShopAll;
 
     @FindBy(xpath = "(//a[contains(@href,'/c/kids/outerwear')])[3]")
@@ -289,13 +268,13 @@ public class MegamenuCategories extends PageObjectModel {
     @FindBy(xpath = "(//a[contains(@href,'/c/accessories/hats-and-caps')])[6]")
     public WebElement categoryAccessories_BeaniesAndHats;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/accessories/beanies-and-scarves')])[6]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/accessories/beanies-and-scarves')])[4]")
     public WebElement categoryAccessories_WinterAccessories;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/accessories/spring-accessories')])[6]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/accessories/spring-accessories')])[4]")
     public WebElement categoryAccessories_SocksBeltsAndBags;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/pooch-knuckles')])[6]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/pooch-knuckles')])[2]")
     public WebElement categoryAccessories_Pet;
 
     @FindBy(xpath = "(//a[contains(@href,'/c/accessories')])[30]")
@@ -304,10 +283,10 @@ public class MegamenuCategories extends PageObjectModel {
     @FindBy(xpath = "(//a[contains(@href,'/c/iconics')])[7]")
     public WebElement categoryIcons;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/icons')])[16]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/men/icons')])[14]")
     public WebElement categoryIcons_Men;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/women/icons')])[16]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/women/icons')])[14]")
     public WebElement categoryIcons_Women;
 
     @FindBy(xpath = "(//a[contains(@href,'/c/men/icons/originals')])[3]")
@@ -322,10 +301,10 @@ public class MegamenuCategories extends PageObjectModel {
     @FindBy(xpath = "(//a[contains(@href,'/c/men/icons/onyx-series')])[3]")
     public WebElement categoryIcons_Men_OnyxSeries;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/icons/cloud')])[5]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/men/icons/cloud')])[3]")
     public WebElement categoryIcons_Men_Cloud;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/women/icons/cloud')])[5]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/women/icons/cloud')])[3]")
     public WebElement categoryIcons_Women_Cloud;
 
     @FindBy(xpath = "(//a[contains(@href,'/c/women/icons/gold-series')])[3]")
@@ -346,643 +325,558 @@ public class MegamenuCategories extends PageObjectModel {
     @FindBy(xpath = "(//a[contains(@href,'/c/iconics/gold-series')])[3]")
     public WebElement categoryIcons_GoldSeries;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/sale')])[2]")
-    public WebElement categorySale;
+    @FindBy(xpath = "(//a[contains(@href,'/c/the-bunny')])[6]")
+    public WebElement categoryTheBunny;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/women/sale')])[4]")
-    public WebElement categorySale_Women;
+    @FindBy(xpath = "(//a[contains(@href,'/e/explore-the-bunny')])[2]")
+    public WebElement DiscoverTheBunny;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/men/sale')])[4]")
-    public WebElement categorySale_Men;
-
-    @FindBy(xpath = "(//a[contains(@href,'/c/kids/sale')])[4]")
-    public WebElement categorySale_Kids;
+    @FindBy(xpath = "(//a[contains(@href,'/c/the-bunny')])[7]")
+    public WebElement categoryTheBunny_ShopAll;
 
     public void openCategoryNew() {
-        wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//a[contains(@href,'/c/new-arrivals')])[3]")));
+        wait.withTimeout(Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//a[contains(@href,'/c/new-arrivals')])[3]")));
         categoryNew.click();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/new-arrivals")));
     }
 
-    public void openCategoryNew_LunarNY() {
+    public void openCategoryNew_Bunny() {
         actions.moveToElement(categoryKids).pause(1000); //remove focus from "New" category
         actions.moveToElement(categoryNew).pause(1000);
-        actions.moveToElement(categoryNew_LunarNY);
+        actions.moveToElement(categoryNew_Bunny);
         actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/lunar-new-year")));
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/the-bunny")));
     }
 
-    public void openCategoryNew_Pleasures() {
+    public void openCategoryNew_AirDown() {
         actions.moveToElement(categoryNew).pause(1000);
-        actions.moveToElement(categoryNew_Pleasures);
+        actions.moveToElement(categoryNew_AirDown);
         actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/pleasures")));
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/lightweight-down-jackets")));
     }
 
     public void openCategoryNew_NewArrivals() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
         actions.moveToElement(categoryNew).pause(1000);
-        actions.moveToElement(categoryNew_NewArrivals);
+        actions.moveToElement(categoryNew_SpringNewArrivals);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/new-arrivals")));
     }
 
-    public void openCategoryWomenENG() {
-        wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//a[contains(@href,'/c/women')])[37]")));
-        categoryWomenENG.click();
+    public void openCategoryWomen() {
+//        wait.withTimeout(Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//a[contains(@href,'/c/women')])[37]")));
+        categoryWomen.click();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women")));
     }
 
-    public void openCategoryWomenNonENG() {
-        wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//a[contains(@href,'/c/women')])[36]")));
-        categoryWomenNonENG.click();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women")));
-    }
-
-    public void openCategoryWomenENG_NewArrivals() {
+    public void openCategoryWomen_NewArrivals() {
         actions.moveToElement(categoryNew).pause(1000);
-        actions.moveToElement(categoryWomenENG).pause(1000);
+        actions.moveToElement(categoryWomen).pause(1000);
         actions.moveToElement(categoryWomen_NewArrivals);
         actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/new-arrivals")));
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/new-spring-arrivals")));
     }
 
-    public void openCategoryWomenNonENG_NewArrivals() {
-        actions.moveToElement(categoryNew).pause(1000);
-        actions.moveToElement(categoryWomenNonENG).pause(1000);
-        actions.moveToElement(categoryWomen_NewArrivals);
+    public void openCategoryWomen_NewArrivals_LightweightDownJackets() {
+        actions.moveToElement(categoryWomen).pause(1000);
+        actions.moveToElement(categoryWomen_NewArrivals_LightweightDownJackets);
         actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/new-arrivals")));
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/outerwear/lightweights-down-jackets")));
     }
 
-    public void openCategoryWomenENG_NewArrivals_Sale() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
-        actions.moveToElement(categoryWomen_NewArrivals_Sale);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/sale")));
-    }
-
-    public void openCategoryWomenNonENG_NewArrivals_Sale() {
-        actions.moveToElement(categoryWomenNonENG).pause(1000);
-        actions.moveToElement(categoryWomen_NewArrivals_Sale);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/sale")));
-    }
-
-    public void openCategoryWomenENG_NewArrivals_Cloud() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
-        actions.moveToElement(categoryWomen_NewArrivals_Cloud);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/icons/cloud")));
-    }
-
-    public void openCategoryWomenNonENG_NewArrivals_Cloud() {
-        actions.moveToElement(categoryWomenNonENG).pause(1000);
-        actions.moveToElement(categoryWomen_NewArrivals_Cloud);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/icons/cloud")));
-    }
-
-    public void openCategoryWomenENG_NewArrivals_SherpaAndFleece() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
-        actions.moveToElement(categoryWomen_NewArrivals_SherpaAndFleece);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/clothing/Sherpa-and-Fleece")));
-    }
-
-    public void openCategoryWomenNonENG_NewArrivals_SherpaAndFleece() {
-        actions.moveToElement(categoryWomenNonENG).pause(1000);
-        actions.moveToElement(categoryWomen_NewArrivals_SherpaAndFleece);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/clothing/Sherpa-and-Fleece")));
-    }
-
-    public void openCategoryWomenENG_NewArrivals_LightweightDown() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
-        actions.moveToElement(categoryWomen_NewArrivals_LightweightDown);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/collections/lightweights")));
-    }
-
-    public void openCategoryWomenNonENG_NewArrivals_LightweightDown() {
-        actions.moveToElement(categoryWomenNonENG).pause(1000);
-        actions.moveToElement(categoryWomen_NewArrivals_LightweightDown);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/collections/lightweights")));
-    }
-
-    public void openCategoryWomenENG_NewArrivals_Bunny() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
+    public void openCategoryWomen_NewArrivals_Bunny() {
+        actions.moveToElement(categoryWomen).pause(1000);
         actions.moveToElement(categoryWomen_NewArrivals_Bunny);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/collections/the-bunny")));
     }
 
-    public void openCategoryWomenENG_NewArrivals_Puffers() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
-        actions.moveToElement(categoryWomen_NewArrivals_Puffers);
+    public void openCategoryWomen_NewArrivals_RainJackets() {
+        actions.moveToElement(categoryWomen).pause(1000);
+        actions.moveToElement(categoryWomen_NewArrivals_RainJackets);
         actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/outerwear/puffer-collection")));
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/outerwear/rain-jackets")));
     }
 
-    public void openCategoryWomenENG_NewArrivals_ShopAll() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
+    public void openCategoryWomen_NewArrivals_QuiltedJackets() {
+        actions.moveToElement(categoryWomen).pause(1000);
+        actions.moveToElement(categoryWomen_NewArrivals_QuiltedJackets);
+        actions.click().build().perform();
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/outerwear/quilt-jackets")));
+    }
+
+    public void openCategoryWomen_NewArrivals_ShopAll() {
+        actions.moveToElement(categoryWomen).pause(1000);
         actions.moveToElement(categoryWomen_NewArrivals_ShopAll);
         actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/new-arrivals")));
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/new-spring-arrivals")));
     }
 
-    public void openCategoryWomenENG_Icons() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
+    public void openCategoryWomen_Icons() {
+        actions.moveToElement(categoryWomen).pause(1000);
         actions.moveToElement(categoryWomen_Icons);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/icons")));
     }
 
-    public void openCategoryWomenENG_Icons_Originals() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
+    public void openCategoryWomen_Icons_Originals() {
+        actions.moveToElement(categoryWomen).pause(1000);
         actions.moveToElement(categoryWomen_Icons_Originals);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/icons/originals")));
     }
 
-    public void openCategoryWomenENG_Icons_Cloud() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
-        actions.moveToElement(categoryWomen_Icons_Cloud);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/icons/cloud")));
-    }
-
-    public void openCategoryWomenENG_Icons_GoldSeries() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
+    public void openCategoryWomen_Icons_GoldSeries() {
+        actions.moveToElement(categoryWomen).pause(1000);
         actions.moveToElement(categoryWomen_Icons_GoldSeries);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/icons/gold-series")));
     }
 
-    public void openCategoryWomenENG_Icons_OnyxSeries() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
+    public void openCategoryWomen_Icons_Cloud() {
+        actions.moveToElement(categoryWomen).pause(1000);
+        actions.moveToElement(categoryWomen_Icons_Cloud);
+        actions.click().build().perform();
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/icons/cloud")));
+    }
+
+    public void openCategoryWomen_Icons_OnyxSeries() {
+        actions.moveToElement(categoryWomen).pause(1000);
         actions.moveToElement(categoryWomen_Icons_OnyxSeries);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/icons/onyx-series")));
     }
 
-    public void openCategoryWomenENG_Icons_ShopAll() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
+    public void openCategoryWomen_Icons_ShopAll() {
+        actions.moveToElement(categoryWomen).pause(1000);
         actions.moveToElement(categoryWomen_Icons_ShopAll);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/icons")));
     }
 
-    public void openCategoryWomenENG_Outerwear() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
+    public void openCategoryWomen_Outerwear() {
+        actions.moveToElement(categoryWomen).pause(1000);
         actions.moveToElement(categoryWomen_Outerwear);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/outerwear")));
     }
 
-    public void openCategoryWomenENG_Outerwear_Bunny() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
-        actions.moveToElement(categoryWomen_Outerwear_Bunny);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/collections/the-bunny")));
-    }
-
-    public void openCategoryWomenENG_Outerwear_LightweightJackets() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
+    public void openCategoryWomen_Outerwear_LightweightJackets() {
+        actions.moveToElement(categoryWomen).pause(1000);
         actions.moveToElement(categoryWomen_Outerwear_LightweightJackets);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/outerwear/lightweights")));
     }
 
-    public void openCategoryWomenENG_Outerwear_CoatsAndJackets() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
-        actions.moveToElement(categoryWomen_Outerwear_CoatsAndJackets);
+    public void openCategoryWomen_Outerwear_QuiltedJackets() {
+        actions.moveToElement(categoryWomen).pause(1000);
+        actions.moveToElement(categoryWomen_Outerwear_QuiltedJackets);
         actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/outerwear/coats-jackets")));
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/outerwear/quilt-jackets")));
     }
 
-    public void openCategoryWomenENG_Outerwear_Puffers() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
-        actions.moveToElement(categoryWomen_Outerwear_Puffers);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/outerwear/puffer-collection")));
-    }
-
-    public void openCategoryWomenENG_Outerwear_BomberJackets() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
-        actions.moveToElement(categoryWomen_Outerwear_BomberJackets);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/outerwear/bomber-jackets")));
-    }
-
-    public void openCategoryWomenENG_Outerwear_Parkas() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
-        actions.moveToElement(categoryWomen_Outerwear_Parkas);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/outerwear/parkas")));
-    }
-
-    public void openCategoryWomenENG_Outerwear_Vests() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
+    public void openCategoryWomen_Outerwear_Vests() {
+        actions.moveToElement(categoryWomen).pause(1000);
         actions.moveToElement(categoryWomen_Outerwear_Vests);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/outerwear/vests")));
     }
 
-    public void openCategoryWomenENG_Outerwear_ShopAll() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
+    public void openCategoryWomen_Outerwear_Bunny() {
+        actions.moveToElement(categoryWomen).pause(1000);
+        actions.moveToElement(categoryWomen_Outerwear_Bunny);
+        actions.click().build().perform();
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/collections/the-bunny")));
+    }
+
+    public void openCategoryWomen_Outerwear_RainJackets() {
+        actions.moveToElement(categoryWomen).pause(1000);
+        actions.moveToElement(categoryWomen_Outerwear_RainJackets);
+        actions.click().build().perform();
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/outerwear/rain-jackets")));
+    }
+
+    public void openCategoryWomen_Outerwear_BomberJackets() {
+        actions.moveToElement(categoryWomen).pause(1000);
+        actions.moveToElement(categoryWomen_Outerwear_BomberJackets);
+        actions.click().build().perform();
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/outerwear/bomber-jackets")));
+    }
+
+    public void openCategoryWomen_Outerwear_LightweightDownJackets() {
+        actions.moveToElement(categoryWomen).pause(1000);
+        actions.moveToElement(categoryWomen_Outerwear_LightweightDownJackets);
+        actions.click().build().perform();
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/outerwear/lightweights-down-jackets")));
+    }
+
+    public void openCategoryWomen_Outerwear_Parkas() {
+        actions.moveToElement(categoryWomen).pause(1000);
+        actions.moveToElement(categoryWomen_Outerwear_Parkas);
+        actions.click().build().perform();
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/outerwear/parkas")));
+    }
+
+    public void openCategoryWomen_Outerwear_CoatsAndJackets() {
+        actions.moveToElement(categoryWomen).pause(1000);
+        actions.moveToElement(categoryWomen_Outerwear_CoatsAndJackets);
+        actions.click().build().perform();
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/outerwear/coats-jackets")));
+    }
+
+    public void openCategoryWomen_Outerwear_ShopAll() {
+        actions.moveToElement(categoryWomen).pause(1000);
         actions.moveToElement(categoryWomen_Outerwear_ShopAll);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/outerwear")));
     }
 
-    public void openCategoryWomenENG_Clothing() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
+    public void openCategoryWomen_Clothing() {
+        actions.moveToElement(categoryWomen).pause(1000);
         actions.moveToElement(categoryWomen_Clothing);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/clothing")));
     }
 
-    public void openCategoryWomenENG_Clothing_SherpaAndFleece() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
-        actions.moveToElement(categoryWomen_Clothing_SherpaAndFleece);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/clothing/Sherpa-and-Fleece")));
-    }
-
-    public void openCategoryWomenENG_Clothing_SweatshirtsAndHoodies() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
+    public void openCategoryWomen_Clothing_SweatshirtsAndHoodies() {
+        actions.moveToElement(categoryWomen).pause(1000);
         actions.moveToElement(categoryWomen_Clothing_SweatshirtsAndHoodies);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/clothing/sweatshirts-and-hoodies")));
     }
 
-    public void openCategoryWomenENG_Clothing_PantsAndShorts() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
-        actions.moveToElement(categoryWomen_Clothing_PantsAndShorts);
+    public void openCategoryWomen_Clothing_SherpaAndFleece() {
+        actions.moveToElement(categoryWomen).pause(1000);
+        actions.moveToElement(categoryWomen_Clothing_SherpaAndFleece);
         actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/clothing/trousers-and-shorts")));
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/clothing/Sherpa-and-Fleece")));
     }
 
-    public void openCategoryWomenENG_Clothing_ShopAll() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
+    public void openCategoryWomen_Clothing_PolosAndTees() {
+        actions.moveToElement(categoryWomen).pause(1000);
+        actions.moveToElement(categoryWomen_Clothing_PolosAndTees);
+        actions.click().build().perform();
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/clothing/polos-and-tees")));
+    }
+
+    public void openCategoryWomen_Clothing_PantsAndShorts() {
+        actions.moveToElement(categoryWomen).pause(1000);
+        actions.moveToElement(categoryWomen_Clothing_PantsAndShorts);
+        actions.click().build().perform();
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/clothing/pants-and-shorts")));
+    }
+
+    public void openCategoryWomen_Clothing_ShopAll() {
+        actions.moveToElement(categoryWomen).pause(1000);
         actions.moveToElement(categoryWomen_Clothing_ShopAll);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/clothing")));
     }
 
-    public void openCategoryWomenENG_Accessories() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
+    public void openCategoryWomen_Accessories() {
+        actions.moveToElement(categoryWomen).pause(1000);
         actions.moveToElement(categoryWomen_Accessories);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/accessories")));
     }
 
-    public void openCategoryWomenENG_Accessories_BeaniesAndHats() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
+    public void openCategoryWomen_Accessories_BeaniesAndHats() {
+        actions.moveToElement(categoryWomen).pause(1000);
         actions.moveToElement(categoryWomen_Accessories_BeaniesAndHats);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/accessories/hats-and-caps")));
     }
 
-    public void openCategoryWomenENG_Accessories_WinterAccessories() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
+    public void openCategoryWomen_Accessories_WinterAccessories() {
+        actions.moveToElement(categoryWomen).pause(1000);
         actions.moveToElement(categoryWomen_Accessories_WinterAccessories);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/accessories/beanies-and-scarves")));
     }
 
-    public void openCategoryWomenENG_Accessories_Pet() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
-        actions.moveToElement(categoryWomen_Accessories_Pet);
+    public void openCategoryWomen_Accessories_BagsBeltsAndAccessories() {
+        actions.moveToElement(categoryWomen).pause(1000);
+        actions.moveToElement(categoryWomen_Accessories_BagsBeltsAndAccessories);
         actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/pooch-knuckles")));
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/accessories/bags-belts")));
     }
 
-    public void openCategoryWomenENG_Accessories_SocksBeltsAndBags() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
-        actions.moveToElement(categoryWomen_Accessories_SocksBeltsAndBags);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/accessories/spring-accessories")));
-    }
-
-    public void openCategoryWomenENG_Accessories_ShopAll() {
-        actions.moveToElement(categoryWomenENG).pause(1000);
+    public void openCategoryWomen_Accessories_ShopAll() {
+        actions.moveToElement(categoryWomen).pause(1000);
         actions.moveToElement(categoryWomen_Accessories_ShopAll);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/accessories")));
     }
 
-    public void openCategoryMenENG() {
-        categoryMenENG.click();
+    public void openCategoryMen() {
+        wait.withTimeout(Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//a[contains(@href,'/c/men')])[37]")));
+        categoryMen.click();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men")));
     }
 
-    public void openCategoryMenNonENG() {
-        categoryMenNonENG.click();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men")));
-    }
-
-    public void openCategoryMenENG_NewArrivals() {
+    public void openCategoryMen_NewArrivals() {
         actions.moveToElement(categoryNew).pause(1000);
-        actions.moveToElement(categoryMenENG).pause(1000);
+        actions.moveToElement(categoryMen).pause(1000);
         actions.moveToElement(categoryMen_NewArrivals);
         actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/new-arrivals")));
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/new-spring-arrivals")));
     }
 
-    public void openCategoryMenENG_NewArrivals_Sale() {
-        actions.moveToElement(categoryMenENG).pause(1000);
-        actions.moveToElement(categoryMen_NewArrivals_Sale);
+    public void openCategoryMen_NewArrivals_LightweightDownJackets() {
+        actions.moveToElement(categoryMen).pause(1000);
+        actions.moveToElement(categoryMen_NewArrivals_LightweightDownJackets);
         actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/sale")));
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/outerwear/lightweights-down-jackets")));
     }
 
-    public void openCategoryMenENG_NewArrivals_Cloud() {
-        actions.moveToElement(categoryMenENG).pause(1000);
-        actions.moveToElement(categoryMen_NewArrivals_Cloud);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/icons/cloud")));
-    }
-
-    public void openCategoryMenENG_NewArrivals_SherpaAndFleece() {
-        actions.moveToElement(categoryMenENG).pause(1000);
-        actions.moveToElement(categoryMen_NewArrivals_SherpaAndFleece);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/clothing/Sherpa-and-Fleece")));
-    }
-
-    public void openCategoryMenENG_NewArrivals_LightweightDown() {
-        actions.moveToElement(categoryMenENG).pause(1000);
-        actions.moveToElement(categoryMen_NewArrivals_LightweightDown);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/collections/lightweights")));
-    }
-
-    public void openCategoryMenENG_NewArrivals_Bunny() {
-        actions.moveToElement(categoryMenENG).pause(1000);
+    public void openCategoryMen_NewArrivals_Bunny() {
+        actions.moveToElement(categoryMen).pause(1000);
         actions.moveToElement(categoryMen_NewArrivals_Bunny);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/collections/the-bunny")));
     }
 
-    public void openCategoryMenENG_NewArrivals_Puffers() {
-        actions.moveToElement(categoryMenENG).pause(1000);
-        actions.moveToElement(categoryMen_NewArrivals_Puffers);
+    public void openCategoryMen_NewArrivals_RainJackets() {
+        actions.moveToElement(categoryMen).pause(1000);
+        actions.moveToElement(categoryMen_NewArrivals_RainJackets);
         actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/outerwear/puffer-collection")));
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/outerwear/rain-jackets")));
     }
 
-    public void openCategoryMenENG_NewArrivals_ShopAll() {
-        actions.moveToElement(categoryMenENG).pause(1000);
+    public void openCategoryMen_NewArrivals_QuiltedJackets() {
+        actions.moveToElement(categoryMen).pause(1000);
+        actions.moveToElement(categoryMen_NewArrivals_QuiltedJackets);
+        actions.click().build().perform();
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/outerwear/quilt-jackets")));
+    }
+
+    public void openCategoryMen_NewArrivals_ShopAll() {
+        actions.moveToElement(categoryMen).pause(1000);
         actions.moveToElement(categoryMen_NewArrivals_ShopAll);
         actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/new-arrivals")));
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/new-spring-arrivals")));
     }
 
-    public void openCategoryMenENG_Icons() {
-        actions.moveToElement(categoryMenENG).pause(1000);
+    public void openCategoryMen_Icons() {
+        actions.moveToElement(categoryMen).pause(1000);
         actions.moveToElement(categoryMen_Icons);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/icons")));
     }
 
-    public void openCategoryMenENG_Icons_Originals() {
-        actions.moveToElement(categoryMenENG).pause(1000);
+    public void openCategoryMen_Icons_Originals() {
+        actions.moveToElement(categoryMen).pause(1000);
         actions.moveToElement(categoryMen_Icons_Originals);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/icons/originals")));
     }
 
-    public void openCategoryMenENG_Icons_Cloud() {
-        actions.moveToElement(categoryMenENG).pause(1000);
-        actions.moveToElement(categoryMen_Icons_Cloud);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/icons/cloud")));
-    }
-
-    public void openCategoryMenENG_Icons_GoldSeries() {
-        actions.moveToElement(categoryMenENG).pause(1000);
+    public void openCategoryMen_Icons_GoldSeries() {
+        actions.moveToElement(categoryMen).pause(1000);
         actions.moveToElement(categoryMen_Icons_GoldSeries);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/icons/gold-series")));
     }
 
-    public void openCategoryMenENG_Icons_OnyxSeries() {
-        actions.moveToElement(categoryMenENG).pause(1000);
+    public void openCategoryMen_Icons_Cloud() {
+        actions.moveToElement(categoryMen).pause(1000);
+        actions.moveToElement(categoryMen_Icons_Cloud);
+        actions.click().build().perform();
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/icons/cloud")));
+    }
+
+    public void openCategoryMen_Icons_OnyxSeries() {
+        actions.moveToElement(categoryMen).pause(1000);
         actions.moveToElement(categoryMen_Icons_OnyxSeries);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/icons/onyx-series")));
     }
 
-    public void openCategoryMenENG_Icons_ShopAll() {
-        actions.moveToElement(categoryMenENG).pause(1000);
+    public void openCategoryMen_Icons_ShopAll() {
+        actions.moveToElement(categoryMen).pause(1000);
         actions.moveToElement(categoryMen_Icons_ShopAll);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/icons")));
     }
 
-    public void openCategoryMenENG_Outerwear() {
-        actions.moveToElement(categoryMenENG).pause(1000);
+    public void openCategoryMen_Outerwear() {
+        actions.moveToElement(categoryMen).pause(1000);
         actions.moveToElement(categoryMen_Outerwear);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/outerwear")));
     }
 
-    public void openCategoryMenENG_Outerwear_Bunny() {
-        actions.moveToElement(categoryMenENG).pause(1000);
-        actions.moveToElement(categoryMen_Outerwear_Bunny);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/collections/the-bunny")));
-    }
-
-    public void openCategoryMenENG_Outerwear_LightweightJackets() {
-        actions.moveToElement(categoryMenENG).pause(1000);
+    public void openCategoryMen_Outerwear_LightweightJackets() {
+        actions.moveToElement(categoryMen).pause(1000);
         actions.moveToElement(categoryMen_Outerwear_LightweightJackets);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/outerwear/lightweights")));
     }
 
-    public void openCategoryMenENG_Outerwear_CoatsAndJackets() {
-        actions.moveToElement(categoryMenENG).pause(1000);
-        actions.moveToElement(categoryMen_Outerwear_CoatsAndJackets);
+    public void openCategoryMen_Outerwear_QuiltedJackets() {
+        actions.moveToElement(categoryMen).pause(1000);
+        actions.moveToElement(categoryMen_Outerwear_QuiltedJackets);
         actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/outerwear/coats-jackets")));
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/outerwear/quilt-jackets")));
     }
 
-    public void openCategoryMenENG_Outerwear_Puffers() {
-        actions.moveToElement(categoryMenENG).pause(1000);
-        actions.moveToElement(categoryMen_Outerwear_Puffers);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/outerwear/puffer-collection")));
-    }
-
-    public void openCategoryMenENG_Outerwear_BomberJackets() {
-        actions.moveToElement(categoryMenENG).pause(1000);
-        actions.moveToElement(categoryMen_Outerwear_BomberJackets);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/outerwear/bomber-jackets")));
-    }
-
-    public void openCategoryMenENG_Outerwear_Parkas() {
-        actions.moveToElement(categoryMenENG).pause(1000);
-        actions.moveToElement(categoryMen_Outerwear_Parkas);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/outerwear/parkas")));
-    }
-
-    public void openCategoryMenENG_Outerwear_Vests() {
-        actions.moveToElement(categoryMenENG).pause(1000);
+    public void openCategoryMen_Outerwear_Vests() {
+        actions.moveToElement(categoryMen).pause(1000);
         actions.moveToElement(categoryMen_Outerwear_Vests);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/outerwear/vests")));
     }
 
-    public void openCategoryMenENG_Outerwear_ShopAll() {
-        actions.moveToElement(categoryMenENG).pause(1000);
+    public void openCategoryMen_Outerwear_Bunny() {
+        actions.moveToElement(categoryMen).pause(1000);
+        actions.moveToElement(categoryMen_Outerwear_Bunny);
+        actions.click().build().perform();
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/collections/the-bunny")));
+    }
+
+    public void openCategoryMen_Outerwear_RainJackets() {
+        actions.moveToElement(categoryMen).pause(1000);
+        actions.moveToElement(categoryMen_Outerwear_RainJackets);
+        actions.click().build().perform();
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/outerwear/rain-jackets")));
+    }
+
+    public void openCategoryMen_Outerwear_BomberJackets() {
+        actions.moveToElement(categoryMen).pause(1000);
+        actions.moveToElement(categoryMen_Outerwear_BomberJackets);
+        actions.click().build().perform();
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/outerwear/bomber-jackets")));
+    }
+
+    public void openCategoryMen_Outerwear_LightweightDownJackets() {
+        actions.moveToElement(categoryMen).pause(1000);
+        actions.moveToElement(categoryMen_Outerwear_LightweightDownJackets);
+        actions.click().build().perform();
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/outerwear/lightweights-down-jackets")));
+    }
+
+    public void openCategoryMen_Outerwear_Parkas() {
+        actions.moveToElement(categoryMen).pause(1000);
+        actions.moveToElement(categoryMen_Outerwear_Parkas);
+        actions.click().build().perform();
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/outerwear/parkas")));
+    }
+    public void openCategoryMen_Outerwear_CoatsAndJackets() {
+        actions.moveToElement(categoryMen).pause(1000);
+        actions.moveToElement(categoryMen_Outerwear_CoatsAndJackets);
+        actions.click().build().perform();
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/outerwear/coats-jackets")));
+    }
+
+    public void openCategoryMen_Outerwear_ShopAll() {
+        actions.moveToElement(categoryMen).pause(1000);
         actions.moveToElement(categoryMen_Outerwear_ShopAll);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/outerwear")));
     }
 
-    public void openCategoryMenENG_Clothing() {
-        actions.moveToElement(categoryMenENG).pause(1000);
+    public void openCategoryMen_Clothing() {
+        actions.moveToElement(categoryMen).pause(1000);
         actions.moveToElement(categoryMen_Clothing);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/clothing")));
     }
 
-    public void openCategoryMenENG_Clothing_SherpaAndFleece() {
-        actions.moveToElement(categoryMenENG).pause(1000);
-        actions.moveToElement(categoryMen_Clothing_SherpaAndFleece);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/clothing/Sherpa-and-Fleece")));
-    }
-
-    public void openCategoryMenENG_Clothing_PolosAndTees() {
-        actions.moveToElement(categoryMenENG).pause(1000);
-        actions.moveToElement(categoryMen_Clothing_PolosAndTees);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/clothing/tees")));
-    }
-
-    public void openCategoryMenENG_Clothing_SweatshirtsAndHoodies() {
-        actions.moveToElement(categoryMenENG).pause(1000);
+    public void openCategoryMen_Clothing_SweatshirtsAndHoodies() {
+        actions.moveToElement(categoryMen).pause(1000);
         actions.moveToElement(categoryMen_Clothing_SweatshirtsAndHoodies);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/clothing/sweatshirts-and-hoodies")));
     }
 
-    public void openCategoryMenENG_Clothing_PantsAndShorts() {
-        actions.moveToElement(categoryMenENG).pause(1000);
+    public void openCategoryMen_Clothing_SherpaAndFleece() {
+        actions.moveToElement(categoryMen).pause(1000);
+        actions.moveToElement(categoryMen_Clothing_SherpaAndFleece);
+        actions.click().build().perform();
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/clothing/sherpa-and-fleece")));
+    }
+
+    public void openCategoryMen_Clothing_PolosAndTees() {
+        actions.moveToElement(categoryMen).pause(1000);
+        actions.moveToElement(categoryMen_Clothing_PolosAndTees);
+        actions.click().build().perform();
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/clothing/tees")));
+    }
+
+    public void openCategoryMen_Clothing_PantsAndShorts() {
+        actions.moveToElement(categoryMen).pause(1000);
         actions.moveToElement(categoryMen_Clothing_PantsAndShorts);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/clothing/trousers-and-shorts")));
     }
 
-    public void openCategoryMenENG_Clothing_UnisexClothing() {
-        actions.moveToElement(categoryMenENG).pause(1000);
-        actions.moveToElement(categoryMen_Clothing_UnisexClothing);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/clothing/unisex-essentials")));
-    }
+//    public void openCategoryMen_Clothing_UnisexClothing() {
+//        actions.moveToElement(categoryMen).pause(1000);
+//        actions.moveToElement(categoryMen_Clothing_UnisexClothing);
+//        actions.click().build().perform();
+//        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/clothing/unisex-essentials")));
+//    }
 
-    public void openCategoryMenENG_Clothing_ShopAll() {
-        actions.moveToElement(categoryMenENG).pause(1000);
+    public void openCategoryMen_Clothing_ShopAll() {
+        actions.moveToElement(categoryMen).pause(1000);
         actions.moveToElement(categoryMen_Clothing_ShopAll);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/clothing")));
     }
 
-    public void openCategoryMenENG_Accessories() {
-        actions.moveToElement(categoryMenENG).pause(1000);
+    public void openCategoryMen_Accessories() {
+        actions.moveToElement(categoryMen).pause(1000);
         actions.moveToElement(categoryMen_Accessories);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/accessories")));
     }
 
-    public void openCategoryMenENG_Accessories_BeaniesAndHats() {
-        actions.moveToElement(categoryMenENG).pause(1000);
-        actions.moveToElement(categoryMen_Accessories_BeaniesAndHats);
+    public void openCategoryMen_Accessories_HatsAndCaps() {
+        actions.moveToElement(categoryMen).pause(1000);
+        actions.moveToElement(categoryMen_Accessories_HatsAndCaps);
         actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/accessories/hats-and-caps")));
     }
 
-//    public void openCategoryMen_Accessories_WinterAccessories() {
-//        actions.moveToElement(categoryMen).pause(1000);
-//        actions.moveToElement(categoryMen_Accessories_WinterAccessories);
-//        actions.click().build().perform();
-//        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/accessories/beanies-and-scarves")));
-//    }
-//
-//    public void openCategoryMen_Accessories_Pet() {
-//        actions.moveToElement(categoryMen).pause(1000);
-//        actions.moveToElement(categoryMen_Accessories_Pet);
-//        actions.click().build().perform();
-//        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/pooch-knuckles")));
-//    }
-//
-//    public void openCategoryMen_Accessories_SocksBeltsAndBags() {
-//        actions.moveToElement(categoryMen).pause(1000);
-//        actions.moveToElement(categoryMen_Accessories_SocksBeltsAndBags);
-//        actions.click().build().perform();
-//        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/accessories/spring-accessories")));
-//    }
-//
-//    public void openCategoryMen_Accessories_ShopAll() {
-//        actions.moveToElement(categoryMen).pause(1000);
-//        actions.moveToElement(categoryMen_Accessories_ShopAll);
-//        actions.click().build().perform();
-//        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/accessories")));
-//    }
-//
-//    public void openCategoryKids() {
-//        categoryKids.click();
-//        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/kids")));
-//    }
-//
-//    public void openCategoryKids_NewArrivals() {
-//        actions.moveToElement(categoryMen).pause(1000);
-//        actions.moveToElement(categoryKids).pause(1000);
-//        actions.moveToElement(categoryKids_NewArrivals);
-//        actions.click().build().perform();
-//        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/kids/new-arrivals")));
-//    }
-
-    public void openCategoryKids_NewArrivals_Sale() {
-        actions.moveToElement(categoryKids).pause(1000);
-        actions.moveToElement(categoryKids_NewArrivals_Sale);
+    public void openCategoryMen_Accessories_SpringAccessories() {
+        actions.moveToElement(categoryMen).pause(1000);
+        actions.moveToElement(categoryMen_Accessories_SpringAccessories);
         actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/kids/sale")));
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/accessories/spring-accessories")));
     }
 
-    public void openCategoryKids_NewArrivals_Originals() {
-        actions.moveToElement(categoryKids).pause(1000);
-        actions.moveToElement(categoryKids_NewArrivals_Originals);
+    public void openCategoryMen_Accessories_BagsBeltsAndAccessories() {
+        actions.moveToElement(categoryMen).pause(1000);
+        actions.moveToElement(categoryMen_Accessories_BagsBeltsAndAccessories);
         actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/kids/icons/originals")));
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/accessories/bags-belts")));
     }
 
-    public void openCategoryKids_NewArrivals_Gold() {
-        actions.moveToElement(categoryKids).pause(1000);
-        actions.moveToElement(categoryKids_NewArrivals_Gold);
+    public void openCategoryMen_Accessories_ShopAll() {
+        actions.moveToElement(categoryMen).pause(1000);
+        actions.moveToElement(categoryMen_Accessories_ShopAll);
         actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/kids/icons/gold")));
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/accessories")));
     }
 
-    public void openCategoryKids_NewArrivals_Lightweights() {
-        actions.moveToElement(categoryKids).pause(1000);
-        actions.moveToElement(categoryKids_NewArrivals_Lightweights);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/kids/collections/lightweights")));
+    public void openCategoryKids() {
+        wait.withTimeout(Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//a[contains(@href,'/c/kids')])[13]")));
+        categoryKids.click();
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/kids")));
     }
 
-    public void openCategoryKids_NewArrivals_ClothingAndAccessories() {
+    public void openCategoryKids_NewArrivals() {
+        actions.moveToElement(categoryMen).pause(1000);
         actions.moveToElement(categoryKids).pause(1000);
-        actions.moveToElement(categoryKids_NewArrivals_ClothingAndAccessories);
+        actions.moveToElement(categoryKids_NewArrivals);
         actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/kids/clothing-and-accessories")));
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/kids/new-arrivals")));
+    }
+
+    public void openCategoryKids_NewArrivals_NewSpringArrivals() {
+        actions.moveToElement(categoryKids).pause(1000);
+        actions.moveToElement(categoryKids_NewArrivals_NewSpringArrivals);
+        actions.click().build().perform();
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/kids/new-arrivals/new-spring-arrivals")));
     }
 
     public void openCategoryKids_NewArrivals_ShopAll() {
@@ -1007,36 +901,48 @@ public class MegamenuCategories extends PageObjectModel {
     }
 
     public void openCategoryAccessories() {
+        wait.withTimeout(Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//a[contains(@href,'/c/accessories')])[26]")));
         categoryAccessories.click();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/accessories")));
     }
 
     public void openCategoryAccessories_BeaniesAndHats() {
-        categoryAccessories.click();
+        actions.moveToElement(categoryAccessories).pause(1000);
+        actions.moveToElement(categoryAccessories_BeaniesAndHats);
+        actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/accessories/hats-and-caps")));
     }
 
     public void openCategoryAccessories_WinterAccessories() {
-        categoryAccessories.click();
+        actions.moveToElement(categoryAccessories).pause(1000);
+        actions.moveToElement(categoryAccessories_WinterAccessories);
+        actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/accessories/beanies-and-scarves")));
     }
 
     public void openCategoryAccessories_SocksBeltsAndBags() {
-        categoryAccessories.click();
+        actions.moveToElement(categoryAccessories).pause(1000);
+        actions.moveToElement(categoryAccessories_SocksBeltsAndBags);
+        actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/accessories/spring-accessories")));
     }
 
     public void openCategoryAccessories_Pet() {
-        categoryAccessories.click();
+        actions.moveToElement(categoryAccessories).pause(1000);
+        actions.moveToElement(categoryAccessories_Pet);
+        actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/pooch-knuckles")));
     }
 
     public void openCategoryAccessories_ShopAll() {
-        categoryAccessories.click();
+        actions.moveToElement(categoryAccessories).pause(1000);
+        actions.moveToElement(categoryAccessories_ShopAll);
+        actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/accessories")));
     }
 
     public void openCategoryIcons() {
+        wait.withTimeout(Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//a[contains(@href,'/c/iconics')])[7]")));
         categoryIcons.click();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/iconics")));
     }
@@ -1140,30 +1046,23 @@ public class MegamenuCategories extends PageObjectModel {
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/iconics/gold-series")));
     }
 
-    public void openCategorySale() {
-        categorySale.click();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/sale")));
+    public void openCategoryTheBunny() {
+        wait.withTimeout(Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//a[contains(@href,'/c/the-bunny')])[6]")));
+        categoryTheBunny.click();
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/the-bunny")));
     }
 
-    public void openCategorySale_Women() {
-        actions.moveToElement(categoryIcons).pause(1000);
-        actions.moveToElement(categorySale).pause(1000);
-        actions.moveToElement(categorySale_Women);
+    public void openCategoryTheBunny_DiscoverTheBunny() {
+        actions.moveToElement(categoryTheBunny).pause(1000);
+        actions.moveToElement(DiscoverTheBunny);
         actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women/sale")));
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/e/explore-the-bunny")));
     }
 
-    public void openCategorySale_Men() {
-        actions.moveToElement(categorySale).pause(1000);
-        actions.moveToElement(categorySale_Men);
+    public void openCategoryTheBunny_ShopAll() {
+        actions.moveToElement(categoryTheBunny).pause(1000);
+        actions.moveToElement(categoryTheBunny_ShopAll);
         actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/men/sale")));
-    }
-
-    public void openCategorySale_Kids() {
-        actions.moveToElement(categorySale).pause(1000);
-        actions.moveToElement(categorySale_Kids);
-        actions.click().build().perform();
-        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/kids/sale")));
+        Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/the-bunny")));
     }
 }
