@@ -62,7 +62,6 @@ public class Megamenu extends BaseTest {
         megamenuCategories.openCategoryMen_NewArrivals_LightweightDownJackets();
         megamenuCategories.openCategoryMen_NewArrivals_Bunny();
         megamenuCategories.openCategoryMen_NewArrivals_RainJackets();
-        megamenuCategories.openCategoryMen_NewArrivals_QuiltedJackets();
         megamenuCategories.openCategoryMen_NewArrivals_ShopAll();
         megamenuCategories.openCategoryMen_Icons();
         megamenuCategories.openCategoryMen_Icons_Originals();
@@ -72,7 +71,6 @@ public class Megamenu extends BaseTest {
         megamenuCategories.openCategoryMen_Icons_ShopAll();
         megamenuCategories.openCategoryMen_Outerwear();
         megamenuCategories.openCategoryMen_Outerwear_LightweightJackets();
-        megamenuCategories.openCategoryMen_Outerwear_QuiltedJackets();
         megamenuCategories.openCategoryMen_Outerwear_Vests();
         megamenuCategories.openCategoryMen_Outerwear_Bunny();
         megamenuCategories.openCategoryMen_Outerwear_RainJackets();
@@ -101,13 +99,14 @@ public class Megamenu extends BaseTest {
         megamenuCategories.openCategoryKids_Outerwear_ShopAll();
 
         megamenuCategories.openCategoryAccessories();
-        megamenuCategories.openCategoryAccessories_BeaniesAndHats();
-        megamenuCategories.openCategoryAccessories_WinterAccessories();
+        megamenuCategories.openCategoryAccessories_HatsAndCaps();
+        megamenuCategories.openCategoryAccessories_SpringAccessories();
         megamenuCategories.openCategoryAccessories_SocksBeltsAndBags();
         megamenuCategories.openCategoryAccessories_Pet();
         megamenuCategories.openCategoryAccessories_ShopAll();
 
         megamenuCategories.openCategoryIcons();
+        megamenuCategories.openCategoryIcons_ExploreIcons();
         megamenuCategories.openCategoryIcons_Men();
         megamenuCategories.openCategoryIcons_Women();
         megamenuCategories.openCategoryIcons_Men_Originals();
