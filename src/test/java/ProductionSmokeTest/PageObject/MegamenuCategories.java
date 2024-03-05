@@ -22,7 +22,7 @@ public class MegamenuCategories extends PageObjectModel {
     @FindBy(xpath = "(//a[contains(@href,'/c/new-arrivals')])[3]")
     public WebElement categoryNew;
 
-    @FindBy(xpath = "(//a[contains(@href,'/c/the-bunny')])[5]")
+    @FindBy(xpath = "(//a[contains(@href,'/c/the-bunny')])[4]")
     public WebElement categoryNew_Bunny;
 
     @FindBy(xpath = "(//a[contains(@href,'/c/lightweight-down-jackets')])[3]")
@@ -364,7 +364,8 @@ public class MegamenuCategories extends PageObjectModel {
 
     public void openCategoryWomen() {
 //        wait.withTimeout(Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//a[contains(@href,'/c/women')])[37]")));
-        categoryWomen.click();
+        actions.moveToElement(categoryWomen).pause(1000);
+        actions.click().build().perform();
         Assert.assertTrue(wait.withTimeout(Duration.ofSeconds(1)).until(ExpectedConditions.urlContains("/c/women")));
     }
 
